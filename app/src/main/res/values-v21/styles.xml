@@ -1,0 +1,28 @@
+<resources>
+
+    <style name="BorjomiTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="BorjomiTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">?android:attr/colorPrimaryDark</item>
+    </style>
+
+    <style name="SwitchStyle">
+        <item name="android:showText">false</item>
+        <!--<item name="track">@android:drawable/switch_track_material</item>-->
+        <!--<item name="thumb">@drawable/switch_thumb_material_anim</item>-->
+        <!--<item name="switchTextAppearance">@style/TextAppearance.Material.Widget.Switch</item>-->
+        <!--<item name="textOn">@string/capital_on</item>-->
+        <!--<item name="textOff">@string/capital_off</item>-->
+        <!--<item name="background">@drawable/control_background_40dp_material</item>-->
+        <!--<item name="showText">false</item>-->
+    </style>
+</resources>
